@@ -1,4 +1,4 @@
-import pyrogram
+from pyrogram import Client, filters, types, raw
 import logging
 
 from .. import loader, utils
